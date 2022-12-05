@@ -1,0 +1,34 @@
+.cartPage {
+    text-align: center;
+}
+
+.cartPageTitle {
+    padding: 70px 50px;
+}
+
+.receipt {
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+}
+
+.receipt li {
+    padding: 12px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+}
+
+.cartItemList {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+
+.img {}
+
+/* .receipt>.cartItemInfo {
+    padding: 12px 50px;
+} */

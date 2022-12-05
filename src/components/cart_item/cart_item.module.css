@@ -1,0 +1,38 @@
+.cartItem {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.cartItem .imgBox,
+.cartItem p,
+.cartItem .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 190px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-height: 100px;
+}
+
+.image {
+    max-width: 80px;
+    max-height: 80px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    font-size: 12px;
+    width: 50%;
+    margin: 2px;
+    padding: 3px;
+}

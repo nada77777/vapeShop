@@ -1,0 +1,49 @@
+.header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px 2px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.icon> :first-child {
+    font-size: 16px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.link>P {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 12px;
+    border-left: 1px solid black;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    margin-right: 2px;
+}
